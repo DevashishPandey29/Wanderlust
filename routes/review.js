@@ -6,7 +6,7 @@ const Review=require("../models/review.js");
 const Listing=require("../models/listing.js");
 const {validateReview, isLoggedIn, isReviewAuthor}= require("../middleware.js");
 
-const reviewController=require("../controllers/reviews.js");
+const reviewController=require("../controllers/review.js");
 
 //Revies
 //POST Route
