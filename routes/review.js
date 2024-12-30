@@ -13,7 +13,7 @@ const reviewController=require("../controllers/review.js");
 router.post(
     "/",
     isLoggedIn,
-    validateReview,
+    //validateReview,
     wrapAsync(reviewController.createReview));
 
 //Delete Revieew Route
